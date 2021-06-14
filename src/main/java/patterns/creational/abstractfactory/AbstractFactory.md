@@ -3,6 +3,9 @@
 Used to provide an interface for creating families of related or dependent 
 objects without specifying their concrete classes.
 
+_We have abstract factory which returns abstract classes (interfaces),
+and we have concrete factories which return concrete implementations_
+
 ### Use Cases
 * when the system should not be dependent on the way of new objects creation
 * when the created objects should be used together and are connected between each other
