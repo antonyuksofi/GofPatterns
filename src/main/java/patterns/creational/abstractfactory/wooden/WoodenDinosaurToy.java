@@ -1,6 +1,6 @@
-package patterns.creational.abstractfactory.factories.wooden;
+package patterns.creational.abstractfactory.wooden;
 
-import patterns.creational.abstractfactory.factories.DinosaurToy;
+import patterns.creational.abstractfactory.DinosaurToy;
 
 public class WoodenDinosaurToy implements DinosaurToy {
     @Override

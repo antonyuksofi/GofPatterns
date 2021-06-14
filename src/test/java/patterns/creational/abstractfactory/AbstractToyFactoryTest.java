@@ -1,22 +1,18 @@
 package patterns.creational.abstractfactory;
 
 import org.junit.jupiter.api.Test;
-import patterns.creational.abstractfactory.factories.AbstractToyFactory;
-import patterns.creational.abstractfactory.factories.CatToy;
-import patterns.creational.abstractfactory.factories.DinosaurToy;
-import patterns.creational.abstractfactory.factories.RobotToy;
-import patterns.creational.abstractfactory.factories.fluffy.FluffyCatToy;
-import patterns.creational.abstractfactory.factories.fluffy.FluffyDinosaurToy;
-import patterns.creational.abstractfactory.factories.fluffy.FluffyRobotToy;
-import patterns.creational.abstractfactory.factories.fluffy.FluffyToyFactory;
-import patterns.creational.abstractfactory.factories.lego.LegoCatToy;
-import patterns.creational.abstractfactory.factories.lego.LegoDinosaurToy;
-import patterns.creational.abstractfactory.factories.lego.LegoRobotToy;
-import patterns.creational.abstractfactory.factories.lego.LegoToyFactory;
-import patterns.creational.abstractfactory.factories.wooden.WoodenCatToy;
-import patterns.creational.abstractfactory.factories.wooden.WoodenDinosaurToy;
-import patterns.creational.abstractfactory.factories.wooden.WoodenRobotToy;
-import patterns.creational.abstractfactory.factories.wooden.WoodenToyFactory;
+import patterns.creational.abstractfactory.fluffy.FluffyCatToy;
+import patterns.creational.abstractfactory.fluffy.FluffyDinosaurToy;
+import patterns.creational.abstractfactory.fluffy.FluffyRobotToy;
+import patterns.creational.abstractfactory.fluffy.FluffyToyFactory;
+import patterns.creational.abstractfactory.lego.LegoCatToy;
+import patterns.creational.abstractfactory.lego.LegoDinosaurToy;
+import patterns.creational.abstractfactory.lego.LegoRobotToy;
+import patterns.creational.abstractfactory.lego.LegoToyFactory;
+import patterns.creational.abstractfactory.wooden.WoodenCatToy;
+import patterns.creational.abstractfactory.wooden.WoodenDinosaurToy;
+import patterns.creational.abstractfactory.wooden.WoodenRobotToy;
+import patterns.creational.abstractfactory.wooden.WoodenToyFactory;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

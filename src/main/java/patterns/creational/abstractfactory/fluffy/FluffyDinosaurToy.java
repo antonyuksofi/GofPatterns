@@ -1,6 +1,6 @@
-package patterns.creational.abstractfactory.factories.fluffy;
+package patterns.creational.abstractfactory.fluffy;
 
-import patterns.creational.abstractfactory.factories.DinosaurToy;
+import patterns.creational.abstractfactory.DinosaurToy;
 
 public class FluffyDinosaurToy implements DinosaurToy {
     @Override

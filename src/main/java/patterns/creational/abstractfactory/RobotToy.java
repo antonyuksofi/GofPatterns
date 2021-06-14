@@ -1,4 +1,4 @@
-package patterns.creational.abstractfactory.factories;
+package patterns.creational.abstractfactory;
 
 public interface RobotToy {
     String robotGreeting();

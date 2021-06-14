@@ -1,6 +1,6 @@
-package patterns.creational.abstractfactory.factories.lego;
+package patterns.creational.abstractfactory.lego;
 
-import patterns.creational.abstractfactory.factories.RobotToy;
+import patterns.creational.abstractfactory.RobotToy;
 
 public class LegoRobotToy implements RobotToy {
     @Override
